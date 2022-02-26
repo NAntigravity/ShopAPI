@@ -2,7 +2,7 @@ package testtask.shift.shopapi.service;
 
 import com.sun.istack.NotNull;
 import org.springframework.validation.annotation.Validated;
-import testtask.shift.shopapi.model.Monitor;
+import testtask.shift.shopapi.model.monitor.Monitor;
 
 @Validated
 public interface MonitorService {

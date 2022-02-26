@@ -1,4 +1,4 @@
-package testtask.shift.shopapi.model;
+package testtask.shift.shopapi.model.pc;
 
 public enum FormFactor {
     Desktop,

@@ -2,7 +2,7 @@ package testtask.shift.shopapi.service;
 
 import com.sun.istack.NotNull;
 import org.springframework.validation.annotation.Validated;
-import testtask.shift.shopapi.model.Laptop;
+import testtask.shift.shopapi.model.laptop.Laptop;
 
 @Validated
 public interface LaptopService {

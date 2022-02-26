@@ -2,7 +2,7 @@ package testtask.shift.shopapi.service;
 
 import com.sun.istack.NotNull;
 import org.springframework.validation.annotation.Validated;
-import testtask.shift.shopapi.model.HardDrive;
+import testtask.shift.shopapi.model.hdd.HardDrive;
 
 @Validated
 public interface HardDriveService {

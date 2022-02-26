@@ -3,7 +3,7 @@ package testtask.shift.shopapi.service;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import testtask.shift.shopapi.model.Monitor;
+import testtask.shift.shopapi.model.monitor.Monitor;
 import testtask.shift.shopapi.repository.MonitorRepository;
 
 @Service

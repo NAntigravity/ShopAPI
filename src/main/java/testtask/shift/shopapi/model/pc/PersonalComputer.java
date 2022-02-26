@@ -1,7 +1,8 @@
-package testtask.shift.shopapi.model;
+package testtask.shift.shopapi.model.pc;
 
 import lombok.Getter;
 import lombok.Setter;
+import testtask.shift.shopapi.model.Product;
 
 import javax.persistence.Entity;
 import java.math.BigDecimal;
