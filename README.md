@@ -3,7 +3,7 @@
 ## Description
 
 Backend test task for SHIFT Lab 2022.  
-Simple API for hardware store.  
+Simple API for an electronics store.  
 Spring Boot + H2.
 
 ## Specification
