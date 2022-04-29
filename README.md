@@ -4,7 +4,7 @@
 
 Backend test task for SHIFT Lab 2022.  
 Simple API for an electronics store.  
-Spring Boot + PostgreSQL.
+Spring Boot + H2.
 
 ## Specification
 Swagger specification is available here:
@@ -28,13 +28,6 @@ $ mvn clean install
 You can start application using Spring Boot custom command:
 ```sh
 $ mvn spring-boot:run
-```
-
-**Using docker**
-
-You can start application using docker-compose:
-```sh
-$ docker-compose up -d
 ```
 
 ## Configuration
