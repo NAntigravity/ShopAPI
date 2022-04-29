@@ -9,7 +9,6 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.springframework.web.bind.annotation.*;
 import testtask.shift.shopapi.model.hdd.HardDrive;
-import testtask.shift.shopapi.model.laptop.Laptop;
 import testtask.shift.shopapi.service.HardDriveService;
 
 @RestController

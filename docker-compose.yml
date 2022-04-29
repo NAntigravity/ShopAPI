@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  app:
+    image: 'shop-api:latest'
+    build:
+      context: ../../Desktop/ShopAPI
+    container_name: shop-api
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/shop
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=shopAPI
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+          
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: shopAPI
+      POSTGRES_DB: shop
+    volumes:
+       - postgres2:/var/lib/postgresql/data
+
+volumes:
+  postgres2:
